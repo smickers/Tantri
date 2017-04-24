@@ -1,0 +1,98 @@
+/* Total BA form css page for the Contact page
+*/
+.container {
+    color: #ededed;
+}
+
+fieldset {
+    display: inline;
+    padding: 5px;
+    float: left;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    clear: left;
+    float: left;
+    color: #ededed;
+    font-family: 'Nova Flat', cursive;
+    font-size: 1.2em;
+    width: 25%;
+    margin: 7px 4% 7px 5px;
+    text-align:right;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    font-size: 1.2em;
+    margin: 7px 0px 7px 0px;
+    color: #000000;
+}
+
+select {
+    display: inline-block;
+    float: left;
+    margin: 7px 0px 7px 0px;
+	font-size: 1.2em;
+    color: #000000;
+}
+
+textarea {
+	display: inline-block;
+	font-size: 1.2em;
+	float: left;
+	margin: 10px 0px 10px 0px;
+	width: 50%;
+	height: 150px;
+    color: #000000;
+}
+
+input[type=submit], input[type=reset] {
+	display: inline-block;
+	float: none;
+	height: 40px;
+	width: 80px;
+    color: #000000;
+}
+
+.btns {
+	clear: left;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+    margin-left: 30%;
+}
+
+.local {
+    display: inline-block;
+    clear: left;
+    font-family: 'Nova Flat', cursive;
+    float: left;
+    width: 50%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+label.error {
+    clear: left;
+	float: left;
+	color: #dd99ff;
+	padding-left: 0.5em;
+	vertical-align: top;
+}
+
+input.error {
+	background-color: #dd99ff;
+}
+
+textarea.error {
+	background-color: #dd99ff;
+}
+
+select.error {
+	background-color: #dd99ff;
+}

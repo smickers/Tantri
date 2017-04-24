@@ -1,0 +1,135 @@
+body {
+    font-family:'Nova Flat', cursive;
+	background-color: #000000;
+	background-image: linear-gradient(90deg, transparent  50%, rgba(255,255,255,.05) 50%);
+	background-size: 15px 50px;
+}
+
+/* Navigation CSS */
+
+@media (min-width: 768px) and (max-width: 1510px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
+.navbar {
+	font-family: 'Nova Flat', cursive;
+	font-size: 2em;
+	font-variant: small-caps;
+    color: #151515;
+}
+
+.nav>li.language-nonactive>a:hover, .nav>li.language-nonactive>a:focus {
+  background-color: transparent;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-top:-90px;
+    margin-left: -213px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.navbar-right {
+    font-size: 1em;
+}
+
+#dd {
+    font-size: 0.8em;
+}
+
+.dropdown-menu {
+    font-family: 'Nova Flat', cursive;
+    font-size: 20px;
+}
+
+/*Page Content CSS*/
+h1{
+    display: block;
+    float: left;
+    background-color: transparent;
+    width: 50%;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Metal Mania', cursive;
+    font-variant:small-caps;
+    font-size: 5em;
+    color: #ededed;
+}
+
+.content {
+    display: inline;
+    text-align: center;
+    background-color: #000000;
+    color: #ededed;
+}
+
+.talk {
+    display: inline;
+    clear: left;
+    float: left;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.talk a {
+    color: #ededed;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.video {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+video {
+    width: 90%;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75px;
+}
+
+.ig {
+    background: #721DC2;
+    background: linear-gradient(55deg, #F8CD65 0%, #F8CD65 20%, #F0702F 30%, #E63841 40%, #C0166E 60%, #721DC2 80%, #552DD6 100%);
+    background: -webkit-linear-gradient(55deg, #F8CD65 0%, #F8CD65 20%, #F0702F 30%, #E63841 40%, #C0166E 60%, #721DC2 80%, #552DD6 100%);
+}
+
+#sm {
+    padding: 1%;
+    font-size: 36px;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    background: #721DC2;
+    background: linear-gradient(55deg, #F8CD65 0%, #F8CD65 20%, #F0702F 30%, #E63841 40%, #C0166E 60%, #721DC2 80%, #552DD6 100%);
+    background: -webkit-linear-gradient(55deg, #F8CD65 0%, #F8CD65 20%, #F0702F 30%, #E63841 40%, #C0166E 60%, #721DC2 80%, #552DD6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter-square:hover {
+    color: #4099FF;
+}
+.fa-youtube-square:hover {
+    color: #b31217;
+}
+
+.address {
+    color: #ededed;
+    text-align: center;
+    display: inline;
+    clear: left;
+    float: left;
+    margin-left: 46%;
+}

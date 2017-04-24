@@ -1,0 +1,30 @@
+.content {
+    padding: 2%;
+}
+#accordion {
+    
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+.panel {
+    background-color: #290F34;
+}
+
+.panel-default > .panel-heading {
+  background-color: #000000;
+}
+
+.panel-title {
+    font-family: 'Nova Flat', cursive;
+    color: #000000;
+}
+
+.panel-body {
+    color: #ededed;
+}
+h2 {
+    font-family: 'Metal Mania', cursive;
+}
+

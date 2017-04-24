@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf­8">
+    <!--<meta name="viewport" content="width=device­width, initial­scale=1">-->
+    <script src="http://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <!--Bootstrap files-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <!--CSS-->
+    <link href="tantrix.css" rel="stylesheet" />
+    <!--Bootstrap failover JS-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+    <script>
+       // window.jQuery || document.write('<script src="../Scripts/jquery-2.2.3.min.js"><\/script>');
+        //check if boostrap loaded,  if not add fail over links to the local bootstrap files
+      //  $('body').css('color') == 'rgb(51, 51, 51)' ||
+      //  $('head').prepend('<link href="../Content/bootstrap.min.css" rel="stylesheet" /><link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />');
+      //  window.jQuery.fn.modal || document.write('<script src="../Scripts/bootstrap.min.js"><\/script>');
+        // clear out existing layout cookies in order for recommendation to work properly
+    //    document.cookie = "Layout=; expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+    </script>
+    <!-- FONT AWESOME GLYPHS INSTEAD OF GLYPHICONS-->
+    <script src="https://use.fontawesome.com/9ddfe32932.js"></script>
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Metal+Mania' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nova+Flat' rel='stylesheet' type='text/css'>
+    <title>TANTRIX Body Art</title>
+</head>
+<body>
+    <!-- SPACING SO THE TITLE FITS BETTER-->
+    <header><br /><br /><br /><br /></header>
+
+    <!--NAVIGATION MENU-->
+    <nav class="navbar navbar-inverse">
+
+        <!--FIRST HALF - DEMOS THE SUBMENU AND A RESPONSIVE IMAGE-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="tantrix-logo1.png" width="427" height="200" class="img-responsive" alt="Tantrix Body Art Logo" /></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" id="left">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Artists <span class="fa fa-angle-double-down" id="dd" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Mike Thompson-Hill</a></li>
+                            <li><a href="#">Michael Lauen</a></li>
+                            <li><a href="#">Chris Kopera</a></li>
+                            <li><a href="#">Tyler Danyluk</a></li>
+                        </ul>
+                        </li>
+                    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Piercing <span class="fa fa-angle-double-down" id="dd" aria-hidden="true"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Leanne Thompson-Hill</a></li>
+                        <li><a href="#">Kristy Stenger</a></li>
+                    </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Policy/F.A.Q. <span class="fa fa-angle-double-down" id="dd" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Tattoo Policy</a></li>
+                            <li><a href="#">Piercing Policy</a></li>
+                            <li><a href="#">Frequently Asked Questions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="content">
+        <div class="jumbotron text-small-caps">
+            <h1>Welcome</h1>
+        </div>
+
+
+        <div class="talk">
+            Tantrix Body Art is located in Saskatoon, Saskatchewan, Canada.
+            <br />
+            Tantrix provides custom tattoos and professional body piercing, and is known world-wide for their artists's bright
+            and vivid color work, along with their ability to do amazing black and grey work as well!
+            <br />
+            Please feel free to <a href="Contact.html">contact us</a> to discuss your tattoo idea and book a consult with any of our artists.
+            <div class="sm">
+                <a href="https://www.facebook.com/pages/Tantrix-Body-Art/198356873542007"><span class="fa fa-facebook-square"></span></a>
+                <a href="https://www.instagram.com/tantrixbodyart/"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-twitter-square"></span></a>
+            </div>
+        </div>
+
+        <div class="video">
+            <video controls="controls">
+                <source width="840" height="472" src="mov_bbb.mp4" type="video/mp4" />
+            </video> 
+        </div>
+
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="address">
+            Tantrix Body Art<br />
+            107 3rd Ave North<br />
+            Saskatoon, SK S7K 2H4<br />
+            (306) 384-5454<br />
+        </div>
+    </section>
+
+
+
+<!--Below are scripts-->
+    <script>
+        //TODO 01: output user agent string to page so you can see what kind of browser you are using
+        // document.getElementById("agent").innerHTML = navigator.userAgent
+
+        //TODO 02: look for a mobile device user agent string - this is an incomplete check and will not work 100% of the time
+        //if (navigator.userAgent.indexOf("Mobile") >= 0 || navigator.userAgent.indexOf("Android") >= 0 ) {
+        //TODO 03:  changes links to point to mobile website
+        //document.getElementById("linkLayout").href = "./mobile/index.html";
+        //document.getElementById("displayLayout").innerHTML = "Mobile";
+        //};
+    </script>
+</body>
+</html>
